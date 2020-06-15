@@ -1,4 +1,4 @@
-public class Cat implements Runnable,Jumpable{
+public class Cat extends Competitors implements Runnable,Jumpable{
 
     int runLength;
     int jumpLength;

@@ -1,14 +1,8 @@
-public class Robot extends Competitors implements Runnable,Jumpable {
+public class Competitors implements Runnable,Jumpable{
 
     int runLength;
     int jumpLength;
     String name;
-
-    public Robot(int runLength, int jumpLength, String name) {
-        this.runLength = runLength;
-        this.jumpLength = jumpLength;
-        this.name = name;
-    }
 
     @Override
     public void run(int i) {
