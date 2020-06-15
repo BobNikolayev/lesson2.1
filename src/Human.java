@@ -1,4 +1,4 @@
-public class Human implements Runnable,Jumpable{
+public class Human extends Competitors implements Runnable,Jumpable{
 
 
     int runLength;
